@@ -1,0 +1,16 @@
+@import "colors";
+
+html {
+  font-size: 8px;
+}
+
+body {
+  background-color: $gray100;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+*, *::after, *::before {
+  font-family: inherit;
+  box-sizing: border-box;
+}
